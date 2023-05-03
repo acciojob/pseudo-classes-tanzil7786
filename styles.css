@@ -1,1 +1,21 @@
-/*  your css code here. If applicable */
+:root{
+	background-color:skyblue;
+}
+div p:first-child{
+	background-color:black;
+	color:white;	
+}
+div p:last-child{
+	color:red;
+}
+main ul li{
+    background-color:pink;
+    width:20rem;
+    padding:0.3rem;
+}
+main ul li:nth-child(2n){
+    background-color:slategray;
+}
+main ul li:first-child, li:last-child{
+    background-color:white;
+}
